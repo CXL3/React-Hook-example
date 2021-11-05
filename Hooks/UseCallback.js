@@ -38,4 +38,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default useCallback;
+export default UseCallback;
