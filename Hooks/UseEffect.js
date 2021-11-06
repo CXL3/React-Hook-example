@@ -31,12 +31,12 @@ const UseEffect = () => {
 
 const styles = StyleSheet.create({
   list: {
-    marginTop: 40,
+    marginTop: 1,
     padding: 10,
     flex: 1,
   },
   text: {
-    marginBottom: 20,
+    marginBottom: 1,
     fontSize: 16
   }
 });

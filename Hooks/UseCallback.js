@@ -15,7 +15,7 @@ const UseCallback = () => {
 
   return (
     <SafeAreaView>
-      <Text>Counter: {count}</Text>
+      <Text> UseCallback Counter: {count}</Text>
 
     <View style={styles.buttons}>
       <TouchableOpacity onPress={handleIncrement}>

@@ -11,7 +11,7 @@ const UseStateComponent = () => {
   const [count, setCount] = useState(0);
   return (
     <SafeAreaView>
-      <Text>Counter: {count}</Text>
+      <Text>use State Counter: {count}</Text>
 
       <View style={styles.row}>
         <TouchableOpacity
