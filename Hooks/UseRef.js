@@ -2,9 +2,12 @@ import React, { useState, useRef } from "react";
 import { Text,View, Button } from 'react-native';
 
 const RefComponent = () => {
+    //start at 0
   const [stateNumber, setStateNumber] = useState(0);
+  //start at 0
   const numRef = useRef(0);
 
+  // button click will
   function incrementAndDelayLogging() {
     setStateNumber(stateNumber + 1);
     numRef.current++;

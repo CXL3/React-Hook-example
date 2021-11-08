@@ -5,6 +5,7 @@ import UseEffect from "./Hooks/UseEffect";
 import EffectComponent2 from "./Hooks/UseEffect2";
 import ContextComponent from "./Hooks/UseContext";
 import RefComponent from "./Hooks/UseRef";
+import ReducerComponent from "./Hooks/Reducer"
 import { StyleSheet, View } from "react-native";
 
 export default function App() {
@@ -15,6 +16,7 @@ export default function App() {
       <EffectComponent2 />
       <ContextComponent />
       <RefComponent />
+      <ReducerComponent />
       <UseEffect />
     </View>
   );
