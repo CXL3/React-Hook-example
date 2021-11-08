@@ -4,6 +4,7 @@ import UseCallback from "./Hooks/UseCallback";
 import UseEffect from "./Hooks/UseEffect";
 import EffectComponent2 from "./Hooks/UseEffect2";
 import ContextComponent from "./Hooks/UseContext";
+import RefComponent from "./Hooks/UseRef";
 import { StyleSheet, View } from "react-native";
 
 export default function App() {
@@ -13,7 +14,7 @@ export default function App() {
       <UseCallback />
       <EffectComponent2 />
       <ContextComponent />
-
+      <RefComponent />
       <UseEffect />
     </View>
   );

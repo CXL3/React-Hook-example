@@ -2,12 +2,14 @@ import React, { useState, useContext, createContext } from "react";
 import { View, Text, Button } from "react-native";
 
 const UserContext = createContext([
+    // default state
   {
     firstName: "Bob",
     lastName: "Bobberson",
     suffix: 1,
     email: "bobbobberson@example.com",
   },
+  // setState
   (obj) => obj,
 ]);
 
