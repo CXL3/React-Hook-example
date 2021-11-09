@@ -7,6 +7,7 @@ import ContextComponent from "./Hooks/UseContext";
 import RefComponent from "./Hooks/UseRef";
 import ReducerComponent from "./Hooks/Reducer"
 import MemoComponent from "./Hooks/Memo"
+
 import { StyleSheet, View } from "react-native";
 
 export default function App() {
@@ -19,6 +20,7 @@ export default function App() {
       <RefComponent />
       <ReducerComponent />
       <MemoComponent />
+
       <UseEffect />
     </View>
   );
